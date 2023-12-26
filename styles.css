@@ -271,15 +271,30 @@ ul li a:hover {
 }
 
 .History {
-    margin: auto;
     width: 100%;
+    margin: auto;
+
 }
 
 .History p {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     width: 100%;
-    font-size: 1.5rem;
-    margin-left: 310px;
-    text-align: center;
+    font-size: 1.25rem;
+}
+
+.History-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.biodata2 {
+    width: 495px;
+    margin-top: 175px;
+    margin-left: 350px;
+    color: var(--extra-light);
+}
+
+.biodata2 span {
+    color: var(--primary-color);
 }
